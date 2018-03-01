@@ -1,0 +1,82 @@
+   1.Newton LAW 2 :
+    • Rumus ΣF = m x a
+      
+      Berikut Algoritmanya :
+         1)  Simpan m dengan Nilai 600
+         2)  Simpan a dengan nilai 2
+         3)  Simpan EF dengan niali 0
+         4)  Hitung EF dengan m kali a
+         5)  Tampilkan Hasil EF
+      Berikut Psudocodenya :
+      Dekarasi:
+         1. STORE m WITH 600
+         2. STORE a WITH 2
+         3. STORE EF WITH 0
+         4. CALCULATE “a” TIMES m
+         5. SET  EF WITH CALCULATE Result
+         6. DISPLAY “EF” 
+
+
+   2.Tahun Kabisat :
+    • Tahun yang habis dibagi 4
+    •  Jika tahun habis dibagi 100, maka Tahun tersebut juga harus habis dibagi 400
+
+    Berikut Algoritmanya :
+        1. Masukkan (tahun)
+        2. Jika sisa pembagian (tahun dibagi 4) != (tidak sama dengan) 0, maka cetak (“Tahun ” ,tahun, “bukan tahun kabisat”)
+        3. Sebaliknya
+        4. Jika sisa pembagian (tahun dibagi 100) = (sama dengan) 0 dan sisa pembagian (tahun dibagi 400) != (tidak sama dengan) 0, 
+           maka cetak (“Tahun” ,tahun, “bukan tahun kabisat)
+        5. sebaliknya
+        6. Jika tidak memenuhi semua kondisi di atas, cetak(“Tahun” ,tahun, “adalah tahun kabisat”)
+
+     Berikut Psudocodenya :
+     Deklarasi :
+       1. Input tahun;
+       2. IF tahun tidak habis dibagi 4 !=0
+           DO “bukan tahun kabisat”
+       3. ELSE IF ((tahun %100 ==0)and (tahun%400!=0)
+          DO “ Tahun Kabisat!”
+       4. ELSE
+	   DO”Tahun Kabisat!”
+       5. END IF
+       6. DISPLAY “Tahun”
+	
+
+   3.Laundry Day
+    • Hitung Jumlah baju 20 kali
+
+    Deklarasi :
+    variable a
+    Berikut Algoritmanya :
+       1. Simpan a dengan nilai 0
+       2. Ulangi a sampai level 20
+       3. Tambahkan “menghitung jumlah baju” naik bersama a
+       4. tampilkan  “menghitung jumlah baju”
+
+    Berikut Psudocodenya :
+       1. STORE a WITH 0
+       2. WHILE a<=20
+       3. Add “menghitung jumlah baju”+ a increment by 1
+       4. Display “jumlah baju”
+  
+    4. Periksa Kuku
+      Deklarasi :
+      variable hitung
+      Berikut Algoritmanya :
+      1. Hitung sisiwa dari 1 sampai 40
+      2. jika siswa/siwsi dengan kuku panjang maka kena hukuman
+      3. jika siswa/sisi kuku pendekmaka tidak kena hukuman
+      4. sebaliknya jika tidak menenuhi kondisi diatas kosongkan
+      5. Ulangi sampai tercapai 
+
+      Berikut Psudocodenya :
+      1. STORE A WITH 1
+      2. WHILE A<=40
+      3. IF Siswa kuku panjang
+		do"kena hukuman"
+      4. Else
+		do"dapat pujian"
+      5. End IF 
+      6. increment by 1
+
