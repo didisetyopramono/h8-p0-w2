@@ -69,7 +69,7 @@ while(i<=100){
   console.log();
   console.log();
 //---------------------------------------------------------------------------------------------------------------------------
-//soal no.3
+//soal ganjil genap kelipatan
 for(i=1;i<=100;i+=2){
   if(i%3===0){
     console.log(i+'kelipatan 3');
