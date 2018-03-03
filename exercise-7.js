@@ -1,6 +1,5 @@
 //1. Menyusun Barisan Bintang
 
-
 for(var i=0;i<5;i++){
   var baris="";
   for(var j=0;j<1;j++){
@@ -10,7 +9,7 @@ for(var i=0;i<5;i++){
    
 }
 console.log("\n");
-
+//--------------------------------------------------------------------------------------------------------------------------
 //2. Menyusun Barisan Bintang Dengan Nested Looping
 
 
@@ -23,8 +22,7 @@ for(var i=0;i<5;i++){
 }
 
 console.log("\n");
-
-
+//---------------------------------------------------------------------------------------------------------------------------
 //3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 var baris="";
 var i=0;
@@ -40,8 +38,3 @@ var i=0;
    baris+= '\n';
  }
  console.log(baris);
-
-
-
-
-
