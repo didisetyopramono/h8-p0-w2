@@ -4,7 +4,8 @@ function shoutOut(){
  return 'halo function!' }
  console.log(shoutOut());
 
-
+ consule.log('\n')
+//----------------------------------------------------------------------------------------------------------------------------
 //Tugas 2
 function calculateMultiply() {
   var num1=5;
@@ -14,14 +15,13 @@ function calculateMultiply() {
 
 var Hasilperkalian = calculateMultiply();
 console.log(Hasilperkalian);
-
+console.log('\n')
+//-----------------------------------------------------------------------------------------------------------------------------
 //Tugas 3
 function processSentence(){
   return 'nama saya ' + name + ', umur saya ' + age + ' tahun, alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby
   
 }
-
-
 
 var name = "Agus";
 var age = 30;
@@ -30,6 +30,3 @@ var hobby = "gaming";
 
 var fullSentence = processSentence(name,age,address,hobby);
 console.log(fullSentence)
-
-
-
