@@ -24,3 +24,4 @@
      console.log( "Selamat datang di Dunia Proxytia, Zero"");
      console.log("Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!");
      } 
+}
