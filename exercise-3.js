@@ -1,5 +1,5 @@
- var nama="mikael";
- var peran=" ";
+var nama="";
+ var peran="";
 
     if((nama==="")&&(peran==="")){
      console.log("masukan nama dan peran");
@@ -21,7 +21,7 @@
 
      else if((nama==="zero")&&(peran="penyihir")){
   
-     console.log( "Selamat datang di Dunia Proxytia, Zero"");
-     console.log("Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!");
+     console.log( "Selamat datang di Dunia Proxytia, Zero");
+
+     console.log("Halo Penyihir Zero, ciptakan keajaiban yang membant kemenanganm ");
      } 
-}
