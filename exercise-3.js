@@ -1,25 +1,25 @@
-var nama="";
+ var nama="";
  var peran="";
 
     if((nama==="")&&(peran==="")){
-     console.log("masukan nama dan peran");
+     console.log("Nama harus diisi!");
      } 
-     else if((nama=="mikael")&&(peran==="")){
+     else if((nama=="Mikael")&&(peran==="")){
      console.log("Halo Mikael, Pilih peranmu untuk memulai game!");
  
      }
-     else if((nama==="didi")&&(peran==="asasin garong")){
+     else if((nama==="Nina")&&(peran==="Ksatria")){
      console.log("Selamat datang di Dunia Proxytia, Nina");
      console.log("Halo Ksatria Nina, kamu dapat menyerang dengan senjatamu!");
   
      }
 
-     else if((nama==="danu")&&(peran==="tabib")){
+     else if((nama==="Danu")&&(peran==="Tabib")){
      console.log("Selamat datang di Dunia Proxytia, Danu");
      console.log("Halo Tabib Danu, kamu akan membantu temanmu yang terluka.");
      }
 
-     else if((nama==="zero")&&(peran="penyihir")){
+     else if((nama==="Zero")&&(peran="Penyihir")){
   
      console.log( "Selamat datang di Dunia Proxytia, Zero");
 
