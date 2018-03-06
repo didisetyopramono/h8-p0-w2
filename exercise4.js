@@ -14,47 +14,48 @@ function dataHandling2(input){
   
   console.log(tanggal)
 
-  splitTanggal = tanggal.split('/');
-  console.log(splitTanggal)
+  Pisah_Tanggal = tanggal.split('/');
+  console.log(Pisah_Tanggal)
 
-  sliceTanggal = splitTanggal[1];
-  intTanggal = parseInt(sliceTanggal);
+  potong_Tanggal = Pisah_Tanggal[1];
+  tanggal_lahir = parseInt(potong_Tanggal);
   
-  var switchBulan;
+  var a_Bulan;
   
-  switch(intTanggal){
-    case 1: {switchBulan=('Januari');break;}
-    case 2: {switchBulan=('Februari');break;}
-    case 3: {switchBulan=('Maret');break;}
-    case 4: {switchBulan=('April');break;}
-    case 5: {switchBulan=('Mei');break;}
-    case 6: {switchBulan=('Juni');break;}
-    case 7: {switchBulan=('Juli');break;}
-    case 8: {switchBulan=('Agustus');break;}
-    case 9: {switchBulan=('September');break;}
-    case 10: {switchBulan=('Oktober');break;}
-    case 11: {switchBulan=('November');break;}
-    case 12: {switchBulan=('Desember');break;}
+  switch(tanggal_lahir){
+    case 1: {a_Bulan=('Januari');break;}
+    case 2: {a_Bulan=('Februari');break;}
+    case 3: {a_Bulan=('Maret');break;}
+    case 4: {a_Bulan=('April');break;}
+    case 5: {a_Bulan=('Mei');break;}
+    case 6: {a_Bulan=('Juni');break;}
+    case 7: {a_Bulan=('Juli');break;}
+    case 8: {a_Bulan=('Agustus');break;}
+    case 9: {a_Bulan=('September');break;}
+    case 10: {a_Bulan=('Oktober');break;}
+    case 11: {a_Bulan=('November');break;}
+    case 12: {a_Bulan=('Desember');break;}
   }
-  console.log(switchBulan);
-  console.log('\n');
+  console.log(a_Bulan);
+  console.log();
   
-  sortTanggal = splitTanggal.sort(function(a, b) { 
+  urutkan_Tanggal = Pisah_Tanggal.sort(function(a, b) { 
     return b - a; 
     
   });
-  console.log(sortTanggal);
-  console.log('\n');
+  console.log(Pisah_Tanggal);
+  console.log();
   
   ubahTanggal = tanggal.split('/').join('-');
   console.log(ubahTanggal);  
-  console.log('\n');
+  console.log();
 
   
   input.splice(1,2);
   input.splice(1,0, 'Roman Alamsyah');
   console.log(input[1]);
-    console.log('\n');
+    console.log();
+
 
 }
 
