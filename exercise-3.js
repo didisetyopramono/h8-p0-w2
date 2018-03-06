@@ -1,26 +1,18 @@
- var nama="didi";
- var peran="asasin garong";
+var nama = '';
+var peran = '';
 
-    if((nama==="")&&(peran==="")){
-     console.log("masukan nama dan peran");
-     } 
-     else if((nama=="didi")&&(peran==="")){
-     console.log("masukan peran mu didi!!!");
- 
-     }
-     else if((nama==="didi")&&(peran==="asasin garong")){
-     console.log("Selamat datang di Dunia game payWALL, didi");
-     console.log("Halo asasin didi,sekarang kamu dapat habiskan dompet ortumu di game ini");
-  
-     }
+        if (nama === ''){
+        console.log('nama harus diisi!');
+        } 
+        else if (peran ==='Ksatria')
+        {
+        console.log('Selamat datang di Dunia Proxytia, '+nama+'. Halo Ksatria '+nama+', Kamu dapat menyerang dengan senjatamu!');
+        }       
 
-     else if((nama==="dodoooo")&&(peran==="dukun")){
-     console.log("Selamat datang di Dunia game payWALL, dodoooo");
-     console.log("Halo dukun dodooo, kamu akan membantu temanmu yang terluka.sembur dia");
-     }
-
-     else if((nama==="didot")&&(peran="hansip")){
-  
-     console.log( "Selamat datang di warnet, Om!!");
-     console.log("Halo didot.saatnya kita garuk para noob !");
-     } 
+        else if (peran === 'Tabib')
+        {
+        console.log('Selamat datang di Dunia Proxytia, '+nama+'. Halo Tabib '+nama+',Kamu akan membantu temanmu yang terluka.');
+        } 
+        else if (peran === 'Penyihir'){
+        console.log('Selamat datang di Dunia Proxytia, '+nama+'. Halo Penyihir '+nama+', ciptakan keajaiban yang membantu kemenanganmu!');
+        }
